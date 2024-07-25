@@ -5,14 +5,18 @@
     box-sizing: border-box;
 }
 body {
+    display: flex;
     font-family: 'Open Sans', sans-serif;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;       
+    margin: 0; 
 }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #ecf0f1;
+    background-color: #f6fdff;
 }
 .logo {
     max-width: 200px; /* Ajuste conforme necessário */
@@ -23,7 +27,7 @@ body {
 }
 
 .content {
-    background-color: #fff;
+    background-color: #dbdada;
     border-radius: 15px;
     width: 960px;
     height: 50%;
