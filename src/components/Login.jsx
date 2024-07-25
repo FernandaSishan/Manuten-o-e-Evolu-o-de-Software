@@ -7,7 +7,7 @@ function Login({ isSignIn, toggleSignIn }) {
         <>
             <div className="content first-content">
                 <div className="first-column">
-                    <img src="css/logo.png" alt="Logo IFAM" className="logo" />
+                    <img src="src\components\logo.png" alt="Logo IFAM" className="logo" />
                     <h2 className="title title-primary">Bem-vindo de Volta!</h2>
                     <p className="description description-primary">Para manter-se conectado</p>
                     <p className="description description-primary">Por favor, faça login</p>
@@ -19,7 +19,7 @@ function Login({ isSignIn, toggleSignIn }) {
             </div>
             <div className="content second-content">
                 <div className="first-column">
-                    <img src="css/logo.png" alt="Logo IFAM2" className="logo" />
+                    <img src="src\components\logo.png" alt="Logo IFAM2" className="logo" />
                     <h2 className="title title-primary">Bem-vindo!</h2>
                     <p className="description description-primary">Entre com seus dados de cadastro</p>
                     <p className="description description-primary">E junte-se a nós</p>
